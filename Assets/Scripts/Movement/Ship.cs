@@ -23,6 +23,7 @@ namespace Asteroids
         public void Rotation(Vector3 direction)
         {
             _rotationImplementation.Rotation(direction);
+            
         }
 
         public void AddAcceleration()
